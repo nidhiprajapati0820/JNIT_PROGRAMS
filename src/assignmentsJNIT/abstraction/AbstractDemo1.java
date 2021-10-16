@@ -16,7 +16,7 @@ class Audi extends Car {
 	}
 
 	void mileage() {
-		System.out.println("Audi mileage is 15 miles per gallon");
+		System.out.println("Audi mileage is 23 miles per gallon");
 	}
 	
 }
@@ -28,7 +28,7 @@ class BMW extends Car {
 	}
 
 	void mileage() {
-		System.out.println("BMW mileage is 13 miles per gallon");
+		System.out.println("BMW mileage is 25 miles per gallon");
 	}
 	
 }
