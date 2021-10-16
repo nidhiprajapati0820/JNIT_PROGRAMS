@@ -1,21 +1,47 @@
 package assignmentsJNIT.abstraction;
 
 abstract class Restaurant {
-	abstract void location();
+	abstract void address();
+	abstract void rating();
 	abstract void flavor();
 	void city() {
-		System.out.println("Phoenix");
+		System.out.println("Restaurant is located in Phoenix AZ");
 	}
-	void allowsPet() {
-		System.out.println("Allows Pets");
+	void petFriendly() {
+		System.out.println("Restaurant is pet friendly");
 	}
 }
 
-class PubjabiTadka {
+class PubjabiTadka extends Restaurant{
+
+	void address() {
+		
+	}
+
+	void rating() {
+		
+	}
+
+	void flavor() {
+		
+	}
+
 	
 }
 
-class HyderabadiRasoi {
+class HyderabadiRasoi extends Restaurant{
+
+	void address() {
+		
+	}
+
+	void rating() {
+		
+	}
+
+	void flavor() {
+		
+	}
 	
 }
 
