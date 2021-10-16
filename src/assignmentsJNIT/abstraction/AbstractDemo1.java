@@ -38,9 +38,11 @@ public class AbstractDemo1 {
 	public static void main(String[] args) {
 		Car audi = new Audi();
 		audi.cost();
+		audi.mileage();
 		
 		Car bmw = new BMW();
 		bmw.cost();
+		bmw.mileage();
 	}
 
 }
