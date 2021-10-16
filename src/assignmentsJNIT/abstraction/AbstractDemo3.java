@@ -33,8 +33,15 @@ class Java extends Technology {
 public class AbstractDemo3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Technology x = new React();
+		x.developer();
+		x.web();
+		x.editor();
+		System.out.println("***************************");
+		Technology y = new Java();
+		y.developer();
+		y.web();
+		y.editor();
 	}
 
 }

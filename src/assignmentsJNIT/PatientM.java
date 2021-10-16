@@ -26,7 +26,7 @@ public class PatientM {
 	public static void main(String[] args) {
 		Hospital apollo= new Hospital();
 		apollo.listOfSpecialty();
-		apollo.selectSpecialist( "Cardiologist","DrSteef");
+		apollo.selectSpecialist( "Cardiologist","DrSteef \n");
 		System.out.println("Available in week days: " + apollo.checkAvailablty());
         System.out.println("Appointment Day and Time:  "+ apollo.fixAppointment("Monday","2:30"));
 	}

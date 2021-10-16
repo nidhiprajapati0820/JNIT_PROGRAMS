@@ -1,54 +1,86 @@
 package assignmentsJNIT.abstraction;
 
 abstract class Restaurant {
-	abstract void address();
-	abstract void rating();
+	abstract String address();
+
+	abstract double rating();
+
 	abstract void flavor();
+
 	void city() {
 		System.out.println("Restaurant is located in Phoenix AZ");
 	}
+
 	void petFriendly() {
 		System.out.println("Restaurant is pet friendly");
 	}
 }
 
-class PubjabiTadka extends Restaurant{
+class GujaratiTadka extends Restaurant {
 
-	void address() {
-		
+	String address() {
+		String add = "274 N Tatum Road Phoenix";
+		System.out.println(add);
+		return add;
 	}
 
-	void rating() {
-		
+	double rating() {
+		double rate = 3.5;
+		return rate;
 	}
 
 	void flavor() {
-		
+		System.out.println("Sweet");
 	}
 
-	
+	void display() {
+		System.out.println("Hello i am GujratiTadka");
+	}
+
 }
 
-class HyderabadiRasoi extends Restaurant{
+class HyderabadRasoi extends Restaurant {
 
-	void address() {
-		
+	String address() {
+		String add = "4043 Bell Road Phoenix";
+		System.out.println(add);
+		return add;
 	}
 
-	void rating() {
-		
+	double rating() {
+		double rate = 4.5;
+		return rate;
 	}
 
 	void flavor() {
-		
+		System.out.println("Spicy");
+
 	}
-	
+
+	void display() {
+		System.out.println("Hello i am HyderabadRasoi");
+	}
+
 }
 
 public class AbstractDemo2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		Restaurant x = new GujaratiTadka();
+		x.address();
+		x.city();
+		System.out.println(x.rating());
+		x.flavor();
+		x.petFriendly();
+		System.out.println("***************************");
+		HyderabadRasoi y = new HyderabadRasoi();
+		y.address();
+		y.city();
+		System.out.println(y.rating());
+		y.flavor();
+		y.petFriendly();
+		y.display();
 
 	}
 
