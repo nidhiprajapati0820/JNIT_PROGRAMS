@@ -20,7 +20,7 @@ class Hospital {
 
 }
 
-public class PatientM {
+public class PolymorphismDemo2 {
 
 	public static void main(String[] args) {
 		Hospital apollo = new Hospital();

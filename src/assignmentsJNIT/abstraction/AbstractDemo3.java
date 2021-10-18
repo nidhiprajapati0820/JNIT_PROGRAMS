@@ -38,10 +38,10 @@ public class AbstractDemo3 {
 		x.web();
 		x.editor();
 		System.out.println("***************************");
-		Technology y = new Java();
-		y.developer();
-		y.web();
-		y.editor();
+		x = new Java();
+		x.developer();
+		x.web();
+		x.editor();
 	}
 
 }

@@ -74,13 +74,13 @@ public class AbstractDemo2 {
 		x.flavor();
 		x.petFriendly();
 		System.out.println("***************************");
-		HyderabadRasoi y = new HyderabadRasoi();
-		y.address();
-		y.city();
-		System.out.println(y.rating());
-		y.flavor();
-		y.petFriendly();
-		y.display();
+		 x = new HyderabadRasoi();
+		x.address();
+		x.city();
+		System.out.println(x.rating());
+		x.flavor();
+		x.petFriendly();
+		//x.display();
 
 	}
 

@@ -36,13 +36,13 @@ class BMW extends Car {
 public class AbstractDemo1 {
 
 	public static void main(String[] args) {
-		Car audi = new Audi();
-		audi.cost();
-		audi.mileage();
+		Car audi = new Audi(); /* Car x; x = new Audi();  */
+		audi.cost();           /* x.cost */  
+		audi.mileage();        /* x.mileage */
 		
-		Car bmw = new BMW();
-		bmw.cost();
-		bmw.mileage();
+		Car bmw = new BMW();    /* x = new BMW */
+		bmw.cost();             /* x.cost */
+		bmw.mileage();           /* x.mileage */
 	}
 
 }

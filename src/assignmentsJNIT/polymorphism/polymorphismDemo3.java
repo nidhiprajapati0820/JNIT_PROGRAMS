@@ -20,7 +20,7 @@ class University {
 
 }
 
-public class Students {
+public class polymorphismDemo3 {
 
 	public static void main(String[] args) {
 		University phoenixAz = new University();

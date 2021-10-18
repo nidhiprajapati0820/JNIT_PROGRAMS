@@ -19,7 +19,7 @@ class Restuarant {
 	}
 }
 
-public class Customer {
+public class PolymorphismDemo1 {
 
 	public static void main(String[] args) {
 		Restuarant ohris = new Restuarant();
