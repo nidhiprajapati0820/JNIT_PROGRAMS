@@ -1,4 +1,4 @@
-package assignmentsJNIT.thisSuper;
+package practice;
 
 public class Demo1 {
 	void m() {

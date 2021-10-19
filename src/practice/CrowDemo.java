@@ -1,4 +1,4 @@
-package assignmentsJNIT.thisSuper;
+package practice;
 
 class CrowModel {
 	int rooms = 4;
