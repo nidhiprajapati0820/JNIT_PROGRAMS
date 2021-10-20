@@ -2,7 +2,6 @@ package assignmentsJNIT.Interface;
 
 interface Shape {
 	void getArea();
-
 	void getPerimeter();
 }
 
