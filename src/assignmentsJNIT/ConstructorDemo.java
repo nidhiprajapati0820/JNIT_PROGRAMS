@@ -26,9 +26,10 @@ public class ConstructorDemo {
 
 		Employees jone = new Employees();
 		Employees bob = new Employees(2345, 75000);
-		Employees bob2 = new Employees();
+		Employees jone1 = new Employees(4563, 87333);
 		jone.display();
 		bob.display();
+		jone1.display();
 
 	}
 

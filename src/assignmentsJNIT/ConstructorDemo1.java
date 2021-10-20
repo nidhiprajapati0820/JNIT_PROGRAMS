@@ -22,7 +22,7 @@ class FruitSpecification {
 	}
 }
 
-public class Fruits {
+public class ConstructorDemo1 {
 	public static void main(String[] args) {
 		FruitSpecification f1 = new FruitSpecification();
 		FruitSpecification f2 = new FruitSpecification("Banan", "yellow", 20);

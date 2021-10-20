@@ -1,12 +1,12 @@
-package assignmentsJNIT.abstraction;
+package assignmentsJNIT.Interface;
 
-abstract class Restaurant {
-	abstract String address();
+interface GeneralInfo {
+	 String address();
+	 double rating();
+	 void flavor();
+}
 
-	abstract double rating();
-
-	abstract void flavor();
-
+abstract class Restaurant implements GeneralInfo{
 	void city() {
 		System.out.println("Restaurant is located in Phoenix AZ");
 	}
@@ -18,18 +18,18 @@ abstract class Restaurant {
 
 class GujaratiTadka extends Restaurant {
 
-	String address() {
+	public String address() {
 		String add = "274 N Tatum Road Phoenix";
 		System.out.println(add);
 		return add;
 	}
 
-	double rating() {
+	public double rating() {
 		double rate = 3.5;
 		return rate;
 	}
 
-	void flavor() {
+	public void flavor() {
 		System.out.println("Sweet");
 	}
 
@@ -41,18 +41,18 @@ class GujaratiTadka extends Restaurant {
 
 class HyderabadRasoi extends Restaurant {
 
-	String address() {
+	public String address() {
 		String add = "4043 Bell Road Phoenix";
 		System.out.println(add);
 		return add;
 	}
 
-	double rating() {
+	public double rating() {
 		double rate = 4.5;
 		return rate;
 	}
 
-	void flavor() {
+	public void flavor() {
 		System.out.println("Spicy");
 
 	}
@@ -63,7 +63,7 @@ class HyderabadRasoi extends Restaurant {
 
 }
 
-public class AbstractDemo2 {
+public class InterfaceDemo2 {
 
 	public static void main(String[] args) {
 
@@ -87,3 +87,4 @@ public class AbstractDemo2 {
 	}
 
 }
+

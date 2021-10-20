@@ -23,7 +23,7 @@ class Patients {
 
 }
 
-public class Hospitals {
+public class ConstructorDemo2 {
 
 	public static void main(String[] args) {
 		Patients p1 = new Patients();

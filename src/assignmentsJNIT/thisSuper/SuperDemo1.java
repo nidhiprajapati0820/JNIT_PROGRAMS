@@ -12,7 +12,7 @@ abstract class Car {
 	}
 
 	Car(String model) {
-		this();
+		//this();
 		this.model = model;
 		System.out.println("This model is:  " + model);
 	}

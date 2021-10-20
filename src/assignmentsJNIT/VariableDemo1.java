@@ -9,7 +9,7 @@ class PatientDetail {
 	float bill;
 }
 
-public class Patient {
+public class VariableDemo1 {
 	public static void main(String[] args) {
 		PatientDetail shiva = new PatientDetail();
 		shiva.fullname = "Ravi Sharma";

@@ -12,7 +12,7 @@ class InsuranceDetail {
 	static String companyName = "Aetna";
 }
 
-public class Insurance {
+public class Variables {
 	public static void main(String[] args) {
 		InsuranceDetail rs = new InsuranceDetail();
 		rs.insuranceId = 2233;
