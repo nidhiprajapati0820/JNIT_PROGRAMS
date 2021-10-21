@@ -59,6 +59,7 @@ public class InterfaceDemo1 {
 		Square r = new Square(5);
 		r.getArea();
 		r.getPerimeter();
+		//r.polygonSide();
 
 		Triangle c = new Triangle(8);
 		c.getArea();

@@ -39,10 +39,12 @@ public class AbstractDemo1 {
 		Car audi = new Audi(); /* Car x; x = new Audi();  */
 		audi.cost();           /* x.cost */  
 		audi.mileage();        /* x.mileage */
-		
-		Car bmw = new BMW();    /* x = new BMW */
+		 audi.start();  
+		 
+		 Car bmw = new BMW();    /* x = new BMW */
 		bmw.cost();             /* x.cost */
-		bmw.mileage();           /* x.mileage */
+		bmw.mileage();  
+		  bmw.start();                    /* x.mileage */
 	}
 
 }
