@@ -35,7 +35,7 @@ public class OperatorDemo {
 		
 		
 		//simple ternary
-		int no1 = 23; int no2 = 44; int rr;
+		int no1 = 23; int no2 = 44; int rr; int t;
 		
 		if(no1<no2) {
 			rr = 200; 
@@ -65,6 +65,9 @@ public class OperatorDemo {
 		// r = (p > q) ? ((xx > yy) ? 900 : 100 ) : -1;
 
 		System.out.println(r);
+		
+		t = (xx < yy)? 300: 20;
+		System.out.println("t= "+t);
 
 	}
 
