@@ -14,8 +14,6 @@ public class WhileDemo2 {
 		System.out.println(sum);
 	}
 
-}
 
-//2 4 8 16 32 64
-//2 2*2 2*2*2 2*2*2*2
-//
+
+}
