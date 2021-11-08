@@ -1,19 +1,15 @@
 package BasicPrograms;
-
 import java.util.Scanner;
-
 public class ATMProgram {
 
 	static long balance = 50000L;
 
-	
-	
 	public static void main(String[] args) {
 		int choice = 0;
 		System.out.println("Welcome to ABC Bank");
 		do {
 			Scanner sc = new Scanner(System.in);
-			
+
 			System.out.println("1. Withdraw ");
 			System.out.println("2. Deposit");
 			System.out.println("3. Check Balance");

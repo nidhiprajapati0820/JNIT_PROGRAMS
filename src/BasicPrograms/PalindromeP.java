@@ -16,10 +16,10 @@ public class PalindromeP {
 		System.out.println("rev=" + sum);
 
 		if (m == sum) {
-			System.out.println("No is palindrme");
+			System.out.println("No is palindrome");
 			
 		} else {
-			System.out.println("No is not palindrme");
+			System.out.println("No is not palindrome");
 		}
 
 	}
