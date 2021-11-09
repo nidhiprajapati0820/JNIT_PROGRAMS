@@ -14,7 +14,7 @@ public class StringDemo1 {
 
 		System.out.println("Charactor of 1st index is: " + ch1 + " and" + "\nCharactor of 3rd index is: " + ch2);
 		try {
-			char ch3 = str.charAt(-1);
+			char ch3 = str.charAt(3);
 			System.out.println(ch3);
 		} catch (StringIndexOutOfBoundsException e) {
 			System.out.println("String index outsides the Range" + e);

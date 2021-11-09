@@ -27,7 +27,8 @@ public class Arithmetic_Exception {
 		}
 		
 		finally {
-			System.out.println("I always get executed ");
+			System.out.println("I always get executed"
+					+ " ");
 		}
 
 	}
