@@ -2,6 +2,7 @@ package assignmentsJNIT.ExceptionHandling;
 
 import java.util.Scanner;
 
+// Arithmetic Exception and Array index out of bounds exception
 public class Arithmetic_Exception {
 
 	public static void main(String[] args) {

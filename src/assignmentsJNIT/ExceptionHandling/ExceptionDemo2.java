@@ -1,10 +1,12 @@
 package assignmentsJNIT.ExceptionHandling;
 
+// Number format Exception
+
 public class ExceptionDemo2 {
 
 	public static void main(String[] args) {
 		try {
-			int num = Integer.parseInt("56fj");
+			int num = Integer.parseInt("5645");
 
 			System.out.println(num);
 
