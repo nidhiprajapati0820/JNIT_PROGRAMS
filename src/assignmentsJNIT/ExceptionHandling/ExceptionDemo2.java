@@ -6,7 +6,7 @@ public class ExceptionDemo2 {
 
 	public static void main(String[] args) {
 		try {
-			int num = Integer.parseInt("5645");
+			int num = Integer.parseInt("5645f");
 
 			System.out.println(num);
 
