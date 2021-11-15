@@ -21,7 +21,7 @@ public class LinkedHashSetDemo {
 		LinkedHashSet<Integer> lhset2 = new LinkedHashSet<Integer>();
 
 		lhset2.add(9);
-		lhset2.add(17);
+		lhset2.add(82);
 		lhset2.add(0);
 		lhset2.add(77);
 		lhset2.add(89);

@@ -33,9 +33,9 @@ public class ArrayListDemo {
          System.out.println(al.contains("Briana"));
         System.out.println(al.get(4));
          
-         //for(String x: al) {
-        	 //System.out.println(x);
-        // }
+         for(String x: al) {
+        	 System.out.println(x);
+         }
 	}
 
 }

@@ -6,7 +6,7 @@ public class HashSetDemo {
 
 	public static void main(String[] args) {
 		HashSet<String> hset = new HashSet<String>();
-        hset.add("Apple");
+		hset.add("Apple");
 		hset.add("Mango");
 		hset.add("Grapes");
 		hset.add("Orange");
@@ -21,7 +21,6 @@ public class HashSetDemo {
 		System.out.println(hset);
 		System.out.println(hset.size());
 
-		
 		HashSet<Integer> hset2 = new HashSet<Integer>();
 		hset2.add(44);
 		hset2.add(77);
@@ -36,12 +35,10 @@ public class HashSetDemo {
 		System.out.println(hset.containsAll(hset2));
 		System.out.println(hset.equals(hset2));
 		System.out.println(hset.hashCode());
-		
-		String x = hset.toString();		
+		String x = hset.toString();
 		System.out.println(hset.toString());
 		System.out.println(hset.toArray().length);
 		System.out.println(hset.retainAll(hset2));
-	
 
 	}
 

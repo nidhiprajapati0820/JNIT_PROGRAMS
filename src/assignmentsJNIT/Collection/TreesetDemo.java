@@ -23,7 +23,7 @@ public class TreeSetDemo {
 
 		tset2.add(88);
 		tset2.add(7);
-		tset2.add(101);
+		tset2.add(10);
 		tset2.add(0);
 		tset2.add(3);
 		tset2.add(222);
