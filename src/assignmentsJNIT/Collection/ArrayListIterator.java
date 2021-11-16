@@ -50,7 +50,7 @@ public class ArrayListIterator {
 			System.out.println(li.previous());
 		}
 
-		System.out.println("------Spliterator------");
+		System.out.println("\n------Spliterator------");
 
 		Spliterator<String> secondhalf = al.spliterator();
 		Spliterator<String> firsthalf = secondhalf.trySplit();

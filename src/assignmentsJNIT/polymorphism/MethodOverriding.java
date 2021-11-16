@@ -6,28 +6,28 @@ class Car {
 	}
 
 	void milage() {
-		System.out.println(" No Milage");
+		System.out.println("No Milage");
 	}
 }
 
 class Audi extends Car {
 	void cost() {
-		System.out.println("Audi cast is 50 lakhs");
+		System.out.println("\nAudi cast is 50 lakhs ");
 	}
 
 	void milage() {
-		System.out.println(" Audi milage is 15KM");
+		System.out.println("Audi milage is 15KM");
 	}
 
 }
 
 class Bmw extends Car {
 	void cost() {
-		System.out.println("BMW cast is 40 lakhs");
+		System.out.println("\nBMW cast is 40 lakhs");
 	}
 
 	void milage() {
-		System.out.println(" Audi milage is 10KM");
+		System.out.println("Audi milage is 10KM");
 	}
 }
 
